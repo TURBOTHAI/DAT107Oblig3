@@ -73,5 +73,9 @@ VALUES
     ('Webutvikling', 'Utvikling av ny webapplikasjon for intern kommunikasjon.');
 
 
+INSERT INTO Ansatt_Prosjekt(ansatt_id, prosjekt_id, rolle, antall:jobbtimer)
+VALUES
+	(1,1,'Prosjektleder',120);
+
 SELECT * FROM ansatt;
 
